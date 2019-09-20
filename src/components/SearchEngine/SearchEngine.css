@@ -1,0 +1,30 @@
+.form-section {
+    height: 400px !important;
+    background-color: grey !important;
+    color: white !important;
+}
+.btn-lg{
+    width: 200px !important;
+    border-radius: 12px !important;
+    border: 1px solid white !important;
+    background-color: transparent;
+}
+.btn-lg.active{
+    color: black !important;
+    background-color: white !important;
+}
+.btn-lg:hover{
+    background-color: transparent !important;
+}
+.btn-lg.active:hover{
+    color: black !important;
+    background-color: white !important;
+}
+
+.buttonlg{
+    background-color: red !important;
+    border: 1px solid red !important;
+}
+.buttonlg:hover{
+    background-color: red !important;
+}
