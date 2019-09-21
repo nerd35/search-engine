@@ -24,7 +24,20 @@
 .buttonlg{
     background-color: red !important;
     border: 1px solid red !important;
+    color: white !important;
 }
 .buttonlg:hover{
     background-color: red !important;
+    color: white !important;
+}
+
+.one-way.active{
+    background-color: aqua !important;
+    border: 1px solid aqua !important;
+
+}
+.one-way.active:hover{
+    background-color: aqua !important;
+    border: 1px solid aqua !important;
+
 }

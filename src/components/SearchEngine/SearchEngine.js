@@ -8,7 +8,7 @@ class SearchEngine extends Component {
             <div>
                 <div className="container mt-5">
                     <div className="row ">
-                        <div className="col-lg-12 col-sm-12 form-section text-center d-fle rgba-black-strong">
+                        <div className="col-lg-12 col-sm-12 form-section ">
                             <ul className="nav mt-5 " id="myTab" role="tablist">
                                 <li className="nav-item">
                                     <a className="nav-link active btn btn-lg btn-info mr-3 mt-3" id="home-tab" data-toggle="tab" href="#home"
@@ -28,13 +28,13 @@ class SearchEngine extends Component {
                                      aria-labelledby="home-tab">
                                     <ul className="nav mt-2" id="myTab" role="tablist">
                                         <li className="nav-item">
-                                            <a className="nav-link active text-white btn-lg btn-white text-center mr-3 mt-2" id="one-way" data-toggle="tab" href="#oneway" role="tab" aria-controls="oneway" aria-selected="true">ONE Way</a>
+                                            <a className="nav-link active text-white btn-lg btn-white text-center one-way mr-3 mt-2" id="one-way" data-toggle="tab" href="#oneway" role="tab" aria-controls="oneway" aria-selected="true">One Way</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link text-white btn-lg btn-white text-center mr-3 mt-2 mx-auto" id="round-trip" data-toggle="tab" href="#roundtrip" role="tab" aria-controls="roundtrip" aria-selected="false">Return Trip</a>
+                                            <a className="nav-link text-white btn-lg btn-white text-center mr-3 mt-2 one-way " id="round-trip" data-toggle="tab" href="#roundtrip" role="tab" aria-controls="roundtrip" aria-selected="false">Return Trip</a>
                                         </li>
                                     </ul>
-                                    <div className="tab-pane fade" id="oneway" role="tabpanel"
+                                    <div className="tab-pane fade show active" id="oneway" role="tabpanel"
                                          aria-labelledby="one-way">
                                         <div className="row mt-5">
                                             <div className="col-lg-4 col-sm-12">
@@ -84,8 +84,9 @@ class SearchEngine extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade" id="roundtrip" role="tabpanel"
+                                    <div className="tab-pane fade " id="roundtrip" role="tabpanel"
                                          aria-labelledby="round-trip">
+                                        round trip
 
                                     </div>
                                 </div>
