@@ -16,11 +16,11 @@ class SearchEngine extends Component {
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link btn btn-lg btn-info mr-3 mt-3" id="profile-tab" data-toggle="tab" href="#profile"
-                                       role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                       role="tab" aria-controls="profile" aria-selected="false">Bus Charter</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link btn btn-lg btn-info mt-3" id="contact-tab" data-toggle="tab" href="#contact"
-                                       role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                                       role="tab" aria-controls="contact" aria-selected="false">Check Ticket</a>
                                 </li>
                             </ul>
                             <div className="tab-content" id="myTabContent">
@@ -86,15 +86,39 @@ class SearchEngine extends Component {
                                     </div>
                                     <div className="tab-pane fade " id="roundtrip" role="tabpanel"
                                          aria-labelledby="round-trip">
-                                        round trip
+
 
                                     </div>
                                 </div>
                                 <div className="tab-pane fade" id="profile" role="tabpanel"
-                                     aria-labelledby="profile-tab">two
+                                     aria-labelledby="profile-tab">
+                                    <div className="row mt-3">
+                                        <div className="col-lg-4 col-sm-12 mt-3">
+                                            <input className="form-control form-control-lg" type="text" placeholder="Pickup Location"/>
+                                        </div>
+                                        <div className="col-lg-4 col-sm-12 mt-3">
+                                            <input className="form-control form-control-lg" type="text" placeholder="Drop Off Location"/>
+                                        </div>
+                                        <div className="col-lg-3 col-sm-12 mt-3">
+                                            <input className="form-control form-control-lg calander" type="text" placeholder="Depart on"/>
+                                        </div>
+
+                                        <div className="col-lg-2 col-sm-12 mt-3">
+                                            <button type="submit" className="btn btn-lg buttonlg w-100">Continue</button>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="tab-pane fade" id="contact" role="tabpanel"
-                                     aria-labelledby="contact-tab">three
+                                     aria-labelledby="contact-tab">
+                                    <div className="row mt-3">
+                                        <div className="col-lg-4 col-sm-12 mt-3">
+                                            <input className="form-control form-control-lg" type="text" placeholder="Enter Your Booking Code"/>
+                                        </div>
+                                        <div className="col-lg-2 col-sm-12 mt-3">
+                                            <button type="submit" className="btn btn-lg buttonlg w-100"><i
+                                                className="fab fa-searchengin"></i> Search</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
